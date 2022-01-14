@@ -1,0 +1,360 @@
+body{
+    background-color: black;
+}
+.test{
+    height: 2000px;
+    line-height: 200px;
+}
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    position: absolute;
+    background-color: tomato;
+    
+}
+.dropdown-item:hover{
+    padding-left: 7px;
+    transition: padding .5s ease;
+
+}
+.navbar-nav{
+    padding-left: 20px;
+}
+ul li{
+    padding-left: 40px;
+    line-height: 20px;
+}
+.navbar-brand {
+   /* padding-right: 5px;*/
+    display: inline-block;
+}
+.navbar-brand span{
+    padding-left: 5px;
+    color: red;
+}
+.navbar-nav .dropdown-menu {
+    left: auto;
+    right: auto;
+}
+.face{
+    color: red;
+    font-size: 30px;
+}
+
+
+
+.item
+{
+ max-width: 100%;
+ max-height: 550px;
+ background-color: saddlebrown;
+ 
+}
+.caption{
+    background-color: rgba(0.5, .2, .5, 0.3);
+    bottom:100px;
+    border-radius: 20px;
+   
+    
+
+}
+.about{
+    margin-top: 50px;
+    background:rgba(0.5, .2, .5, 0.2) ;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+}
+.about p,.about h1{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+.about h1 span{
+    color: red;
+}
+.header h1{
+    color: red;
+}
+
+.mohamed{
+    margin-right:5px ;
+    color: white;
+    padding: 20px;
+    border:1px solid red;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.header .btn{
+    margin-bottom: 10px;
+}
+.briefs h3{
+    color: crimson;
+    margin-top: 20px;
+}
+.opinion .lead{
+    color: white;
+    line-height: 2em;
+}
+.opinion h1{
+    color: red;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.opinion span{
+    color: red;
+    font-weight: bold;
+}
+.opinion .carousel-indicators{
+    text-indent: 0;
+    position: static;
+    padding-top: 20px;
+    
+ 
+}
+ .opinion .carousel-indicators li{
+     text-indent: 0;
+     position: static;
+     height: 80px;
+     width: 80px;
+     border-radius: 50%;
+     overflow: hidden;
+    margin-left: 15px;
+     
+
+}
+.opinion .carousel-indicators li img{
+    width:80px;
+    height: 80px;
+
+}
+.opinion .carousel-indicators li.active{
+    border: 3px solid red;
+    transition: all .5s ease;
+}
+.opinion .lead{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.prog{
+    background: url('../images/pr3.jpg');
+    width: 100%;
+    opacity: 1;
+    margin-top: 50px;
+ background-clip: border-box;
+ background-size: cover;
+ background-attachment: fixed;
+    
+}
+.prog h2{
+    color: red;
+    margin-bottom: 50px;
+    padding-top: 20px;
+    font-weight: bolder;
+    text-shadow: 0 0 10px black;
+}
+.prog .lead{
+    color: greenyellow;
+}
+.prog .par{
+    margin-top: 50px;
+}
+.prog .inside{
+    background-color: rgba(2, 2, 2, .4);
+    
+}
+.prog .rounded-circle {
+    border-radius: 50% !important;
+    width: 200px;
+    height: 200px;
+}
+.color{
+    color: greenyellow;
+    padding-bottom: 20px;
+}
+.users{
+
+padding-top: 30px;
+margin-top: 50px;
+
+}
+.users h2{
+    opacity: 1;
+    color: red;
+ 
+    padding-bottom: 50px;
+}
+.users .lang-users{
+    padding-bottom: 50px;
+}
+.order{
+    background: url('../images/pr7.jpg');
+    width: 100%;
+    opacity: 1;
+ 
+    margin-top: 50px;
+ background-clip: border-box;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.order .order-form{
+    background-color: rgba(2, 2, 2, .8);
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+.order h3{
+    color: red;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.order input{
+    margin-bottom: 10px;
+    background-color: rgba(0.5, .2, .5, 0.3);
+}
+.client{
+  
+    width: 100%;
+    opacity: 1;
+ 
+    margin-top: 50px;
+ background-clip: border-box;
+ background-size: cover;
+ background-attachment: fixed;
+}
+.client img{
+    opacity: .5;
+}
+.client img:hover{
+    opacity: 1;
+}
+.client h3{
+    color: red;
+    margin-bottom: 20px;
+}
+.footer{
+    background: url('../images/pr4.jpg');
+    width: 100%;
+    opacity: 1;
+
+    margin-top: 50px;
+ background-clip: border-box;
+ background-size: cover;
+ background-attachment: fixed;
+ margin-top: 50px;
+ height: 100vh;
+}
+.footer .mycontacts{
+    background-color: rgba(2, 2, 2, .8);
+    height: 100vh;
+}
+
+.footer .con{
+    color: seashell;
+
+    
+}
+.footer .con li{
+
+    padding: 10px;
+}
+.l1 h2{
+    color: red;
+   
+}
+.l1 .logo{
+    color: cyan;
+    font-size: 25px;
+}
+.l1{
+    margin: 10px 0 10px;
+}
+.myphoto{
+    width: 64px;
+    height: 64px;
+    
+}
+.footer .lead{
+    line-height: 20px;
+}
+.footer .media{
+    padding-top: 40px;
+}
+.footer .media h5{
+    color: red;
+    text-shadow: 0px 0px 20px black;
+}
+.footer h2{
+    color: red;
+    margin: 10px 0px 10px ;
+    padding-top: 20px;
+    text-shadow: 0px 0px 10px black;
+}
+.copy-right{
+    background-color: #111;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.prog i{
+    padding-right: 10px;
+}
+.dropdown-menu .dropdown-divider{
+    border-top: 1px solid black;
+}
+.dropdown-divider{
+    border-top: 1px solid white;
+}
+.icon{
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 10px;
+    color: white;
+    left: 10px;
+}
+.nav{
+    background: none;
+
+   
+}
+.sticky{
+    background-color: cadetblue;
+    line-height: 5px;
+}
+
+@media (max-width:768px){
+    .caption{
+      
+        top: 45px;
+        font-size: 15px;
+        line-height: 20px;
+        
+    }
+    .respon{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+       display: inline-block;
+    }
+    .opinion .carousel-indicators li{
+        text-indent: 0;
+        position: static;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+        overflow: hidden;
+       margin-left: 15px;
+        
+   
+   }
+   .opinion .carousel-indicators li img{
+       width: 100%;
+       height: 100%;
+   }
+}
+@media (min-width:768px) and (max-width:992px){
+    .client img {
+        opacity: .5;
+        height: 200px;
+        width: 200px;
+}}
